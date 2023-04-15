@@ -11,7 +11,7 @@ This is a Guide for anyone who's looking to learn everything about retrieving cr
 #### Get all items
 
 ```http
-  GET /api/items
+  GET https://coinmarketcap.com/api/documentation/v1/#tag/key
 ```
 
 | Parameter | Type     | Description                |
