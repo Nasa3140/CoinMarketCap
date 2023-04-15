@@ -15,7 +15,7 @@ import pprint
 # to be used for authentication when making requests to the API.
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 
-API_KEY= "89d87944-6bdd-4151-8c36-78362338cb35"
+API_KEY= "Your API_KEY"
 
 def latest_list():
     """
