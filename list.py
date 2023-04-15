@@ -35,9 +35,6 @@ def latest_list():
 
     session = Session()
     session.headers.update(headers)
-
-
-    # Json = requests.get(url, params=parameters, headers=headers).json()
     
     try:
         response = session.get(url, params=parameters, headers=headers)
